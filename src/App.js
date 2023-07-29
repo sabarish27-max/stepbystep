@@ -10,6 +10,8 @@ import Project5 from './Hooks/Project5'
 import Project6 from './Hooks/Project6'
 import Project7 from './Hooks/Project7'
 import Project8 from './Hooks/Project8'
+import Forms from './Forms/Forms'
+import '../src/App.css'
 
 const App = () => {
   return (
@@ -25,6 +27,7 @@ const App = () => {
     <Increamnet />
     <Project7 />
     <Project8 />
+    <Forms />
     </>
   )
 }
