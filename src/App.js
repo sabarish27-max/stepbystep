@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+// import Hooks from './Hooks/Hooks'
+import Increamnet from './Hooks/Increamnet'
+import Project1 from './Hooks/Project1'
+// import Project2 from './Hooks/Project2'
+import Project3 from './Hooks/Project3'
+import Project4 from './Hooks/Project4'
+import './App.css'
+import Project5 from './Hooks/Project5'
+import Project6 from './Hooks/Project6'
+import Project7 from './Hooks/Project7'
+import Project8 from './Hooks/Project8'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // <><Hooks></Hooks>
+
+    <><Project1 />
+
+    {/* <Project2 /> */}
+    <Project3 />
+    <Project4 />
+    <Project5 />
+    <Project6 />
+    <Increamnet />
+    <Project7 />
+    <Project8 />
+    </>
+  )
 }
 
-export default App;
+export default App
